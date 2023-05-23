@@ -13,22 +13,22 @@ const Nav = () => {
           className='link link-text'
           to={'/'}
         >
-          🛠️ Fachowcy Kołobrzeg
+          Strona Główna
         </Link>
       </div>
       <ul className={!isOpen ? 'wrapper' : 'wrapper navbar-none'}>
         <Link
           className='link link-text'
-          to={'/fachowcy'}
+          to={'/apartment'}
         >
-          Lista fachowców
+         Apartamenty
         </Link>
 
         <Link
           className='link link-text'
-          to={'/contact'}
+          to={'/apartment/contact'}
         >
-          Dodaj swoje usługi
+          Kontakt
         </Link>
       </ul>
       <div className='hamburger'>

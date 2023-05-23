@@ -29,7 +29,7 @@ const router = createBrowserRouter([
       },
       
       {
-        path: 'contact',
+        path: '/apartment/contact',
         element: <Contact />,
         errorElement: <Error />,
       },
