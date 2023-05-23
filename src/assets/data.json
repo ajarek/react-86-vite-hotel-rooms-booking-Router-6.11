@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Studio Apartment",
+    "src": "https://avalonbay-avalon-communities-prod.cdn.arcpublishing.com/resizer/GwiRLK-ZAwVsI1t7O_THHqN3R9g=/548x362/filters:quality(85)/cloudfront-us-east-1.images.arcpublishing.com/avalonbay/FEA6JVUH65HWXLYD7NCELWMO6Q.jpg",
+    "description": "jednopokojowe wygodne apartamenty, które łączą w sobie sypialnię, salon i kuchnię w jednym otwartym pomieszczeniu.",
+    "size": "125m2",
+    "beds":"2",
+    "people": "3",
+    "price":"350"
+  },
+  {
+    "id": "2",
+    "name": "Penthouse Apartment",
+    "src": "https://mrdom.pl/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGbXJkb20ucGwlMkZ3cC1jb250ZW50JTJGdXBsb2FkcyUyRjIwMjMlMkYwMSUyRnBlbnRob3VzZV93d3cuanBnJmNhY2hlTWFya2VyPTE2NzUxNjkzMzMtNDc2MDg2JnRva2VuPTg3OTkyMzljOWRiYmM3ODk.q.jpg",
+    "description": "Bardzo luksusowy apartament znajdujący się na najwyższym piętrze budynku,  z dużymi oknami,  balkonem oraz imponującym widokiem..",
+    "size": "250m2",
+    "beds":"4",
+    "people": "6",
+    "price":"850"
+  },
+  {
+    "id": "3",
+    "name": "Lofty Apartment",
+    "src": "https://s-trojmiasto.pl/zdj/c/n/9/2704/964x0/2704504-Jedna-z-inwestycji-w-ktorej-znajduja-sie-loftowe-mieszkania-jest-Dawna-Poczta-przy-ul-Mickiewicza-we-Wrzeszczu-Powstaja-one-w-nieco-przebudowanym-i-odrestaurowanym-budynku-dawnej-poczty__c_0_259_964_797.jpg",
+    "description": "Bardzo przestronne i wygodne mieszkania o wysokich sufitach,  z widocznymi belkami i ceglanymi ścianami stylowym kominkiem.",
+    "size": "180m2",
+    "beds":"2",
+    "people": "4",
+    "price":"450"
+  },
+  {
+    "id": "4",
+    "name": "Duplex Apartment",
+    "src": "https://treehouse.pe/optsystem/wp-content/uploads/2022/12/departamentos-duplex-en-Miraflores.jpg",
+    "description": "Wygodne i przestronne mieszkania na dwóch poziomach, e z oddzielnymi sypialniami na górnym poziomie i przestrzenią dzienną na dolnym poziomie.",
+    "size": "195m2",
+    "beds":"4",
+    "people": "8",
+    "price":"750"
+  },
+  {
+    "id": "5",
+    "name": "Suite Apartment",
+    "src": "https://spacepattaya.com/assets/images/day_night/space-suite_night.jpg?v=46",
+    "description": "Bardzo elegancki apartament  z osobnym salonem i sypialnią, ",
+    "size": "185m2",
+    "beds":"1",
+    "people": "2",
+    "price":"650"
+  },
+  {
+    "id": "6",
+    "name": "Garden Apartment",
+    "src": "https://garden-apartment-cracow-krakow.booked.com.pl/data/Photos/OriginalPhoto/3937/393782/393782235/Garden-Apartment-Cracow-Shopping-Mall-1Min-Underground-Parking-Family-Friendly-City-Center-Krakow-Exterior.JPEG",
+    "description": "jednopokojowe wygodne apartamenty, które łączą w sobie sypialnię, salon i kuchnię w jednym otwartym pomieszczeniu.",
+    "size": "125m2",
+    "beds":"1",
+    "people": "2",
+    "price":"450"
+  }
+]
