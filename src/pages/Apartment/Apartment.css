@@ -5,9 +5,8 @@
   padding-left: 48px;
   padding-right: 48px;
   padding-bottom: 32px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap:32px;
 }
 .apartment .card{
@@ -38,8 +37,31 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: flex-start;
+  font-size: 1.2rem;
 }
 .apartment-wrapper .name{
   font-size: 1.5rem;
   font-weight: 700;
+}
+.apartment-wrapper .info-wrapper{
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apartment-wrapper .beds{
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.apartment-wrapper .price{
+ font-size:1.5rem ;
+ font-weight: 700;
+}
+.apartment .reservation-summary{
+  height: 500px;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+
 }
