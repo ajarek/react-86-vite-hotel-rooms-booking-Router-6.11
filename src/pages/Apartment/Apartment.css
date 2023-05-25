@@ -13,7 +13,7 @@
   display: flex;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   padding: 16px;
-  
+  cursor: pointer;
 }
 .apartment .card .img{
   width: 315px;
@@ -64,16 +64,31 @@
   height: 500px;
   box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
   padding: 8px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 .apartment .reservation-summary .name,.apartment .reservation-summary .total{
  font-size: 1.4rem;
  font-weight: 500;
+
 }
-.apartment .reservation-summary .name input{
+.apartment .quantity input{
   width: 40px;
   margin: 0 16px;
   
   font-size: 1.2rem;
   padding: 5px;
+}
+.apartment .reservation-date{
+  display: flex;
+  justify-content: space-between;
+}
+.apartment .reservation-date input{
+  width: 130px;
+  height: 40px;
+  font-size: 1.1rem;
+}
+.apartment .reservation-summary div{
+  font-size: 1.2rem;
 }
