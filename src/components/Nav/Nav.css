@@ -58,7 +58,7 @@
     transition: transform 0.5s ease-in-out;
     z-index: 1;
     background: var(--grey);
-    height: 16rem;
+    height: 10rem;
   }
 
   .link {
