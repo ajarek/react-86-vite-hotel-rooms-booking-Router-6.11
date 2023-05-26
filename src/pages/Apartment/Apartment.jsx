@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
-import './Apartment.css'
-import data from '../../assets/data.json'
+import { Link } from 'react-router-dom'
 import { TbBrandCouchdb } from 'react-icons/tb'
+import data from '../../assets/data.json'
 import { getDaysDifference } from '../../helper/getDaysDifference'
+import './Apartment.css'
+
 const Apartment = () => {
   const [reservationSummary, setReservationSummary] = useState({})
   const [quantityApartment, setQuantityApartment] = useState(1)
@@ -113,6 +115,9 @@ const Apartment = () => {
                   : 1)
               ).toFixed(2)
             : 0}
+        </div>
+        <div className="btn-continue">
+          <Link to={'/apartment/finish'} className='button-link'>Kontynuuj</Link>
         </div>
       </div>
     </div>

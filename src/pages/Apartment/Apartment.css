@@ -92,3 +92,20 @@
 .apartment .reservation-summary div{
   font-size: 1.2rem;
 }
+.apartment .button-link{
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 8px 16px;
+  background-color: var(--blue);
+  border: none;
+  text-decoration: none;
+  color: var(--orange);
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+.apartment .button-link:hover{
+  background-color: var(--orange);
+  color: var(--blue);
+}
