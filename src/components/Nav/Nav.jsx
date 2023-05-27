@@ -21,7 +21,7 @@ const Nav = () => {
           className='link link-text'
           to={'/apartment'}
         >
-         Apartamenty
+          Apartamenty
         </Link>
 
         <Link

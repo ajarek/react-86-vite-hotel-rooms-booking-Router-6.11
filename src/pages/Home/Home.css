@@ -1,4 +1,4 @@
-.home{
+.home {
   height: 100vh;
   background-image: url('https://www.informacje.kolobrzeg.pl/images/2019/08/ko%C5%82obrzeg.jpg');
   background-size: cover;
@@ -6,20 +6,19 @@
   color: var(--blue);
   padding: 32px;
 }
-.home h1{
+.home h1 {
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(157, 157, 230), 0 0 0.2em blue;
   color: var(--white);
   display: flex;
 }
-.home p{
-  
+.home p {
   margin-top: 16px;
   margin-bottom: 32px;
   font-size: 1.3rem;
   text-shadow: 1px 1px 2px black, 0 0 1em rgb(157, 157, 230), 0 0 0.2em blue;
   color: var(--white);
 }
-.home .button-link{
+.home .button-link {
   font-size: 1.4rem;
   font-weight: 500;
   padding: 8px 16px;
@@ -33,6 +32,6 @@
   box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-in-out;
 }
-.home .button-link:hover{
+.home .button-link:hover {
   background-color: var(--orange);
 }

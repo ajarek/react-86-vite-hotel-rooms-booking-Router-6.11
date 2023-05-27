@@ -46,7 +46,7 @@ const Apartment = () => {
               <div className='img'>
                 <img
                   src={ap.src}
-                  alt=''
+                  alt={ap.name}
                 />
               </div>
               <div className='apartment-wrapper'>
@@ -116,8 +116,13 @@ const Apartment = () => {
               ).toFixed(2)
             : 0}
         </div>
-        <div className="btn-continue">
-          <Link to={'/apartment/finish'} className='button-link'>Kontynuuj</Link>
+        <div className='btn-continue'>
+          <Link
+            to={'/apartment/finish'}
+            className='button-link'
+          >
+            Kontynuuj
+          </Link>
         </div>
       </div>
     </div>

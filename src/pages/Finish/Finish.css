@@ -1,4 +1,4 @@
-.finish{
+.finish {
   width: 100%;
   min-height: calc(100vh - 65px);
   display: flex;
@@ -8,12 +8,12 @@
   margin-top: 65px;
   padding: 0rem 4rem;
 }
-.finish h2{
+.finish h2 {
   font-size: 2rem;
   text-align: center;
   margin-bottom: 32px;
 }
-.finish .button-link{
+.finish .button-link {
   font-size: 1.4rem;
   font-weight: 500;
   padding: 8px 16px;
@@ -27,11 +27,11 @@
   box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-in-out;
 }
-.finish .button-link:hover{
+.finish .button-link:hover {
   background-color: var(--orange);
 }
-@media (max-width:425px) {
-  .finish{
-  padding: 0rem 8px;
+@media (max-width: 425px) {
+  .finish {
+    padding: 0rem 8px;
   }
 }

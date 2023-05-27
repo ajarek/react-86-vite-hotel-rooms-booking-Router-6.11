@@ -6,7 +6,7 @@ import './Form.css'
 export const Form = () => {
   const schema = yup.object().shape({
     name: yup.string().required('Pole jest wymagane!'),
-    email: yup.string().email().required('Pole jest wymagane!'), 
+    email: yup.string().email().required('Pole jest wymagane!'),
     text: yup.string().required('Pole jest wymagane!'),
   })
 
@@ -19,7 +19,7 @@ export const Form = () => {
   })
 
   const onSubmit = (data) => {
-    alert('Dziękujemy ' + data.name+'!')
+    alert('Dziękujemy ' + data.name + '!')
   }
 
   return (

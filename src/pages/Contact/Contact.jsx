@@ -26,7 +26,10 @@ export const Contact = () => {
         >
           <FaMailBulk /> ajarek@poczta.onet.pl
         </a>
-        <a className={'link'} href='#'>
+        <a
+          className={'link'}
+          href='#'
+        >
           <FaMapMarkerAlt /> Poland Kołobrzeg{' '}
         </a>
       </div>
