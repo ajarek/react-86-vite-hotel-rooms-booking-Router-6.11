@@ -30,3 +30,8 @@
 .finish .button-link:hover{
   background-color: var(--orange);
 }
+@media (max-width:425px) {
+  .finish{
+  padding: 0rem 8px;
+  }
+}

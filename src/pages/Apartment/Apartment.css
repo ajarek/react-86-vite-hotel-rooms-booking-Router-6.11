@@ -109,3 +109,32 @@
 .apartment .button-link:hover{
   background-color: var(--orange);
 }
+@media (max-width:1230px) {
+  .apartment{
+    grid-template-columns: 1fr ;
+  }
+  .apartment .reservation-date{
+    flex-direction: column; 
+    height: 100px;
+  }
+
+}
+@media (max-width:920px) {
+  .apartment{
+    padding-left: 8px;
+  padding-right: 8px;
+  }
+  .apartment .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .apartment .card .img{
+    width: 100%;
+    height: auto;
+  }
+  .apartment-wrapper{
+    width: 100%;
+    padding: 8px;
+  }
+}
